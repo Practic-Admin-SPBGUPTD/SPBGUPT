@@ -2,6 +2,8 @@
 @import './fonts/fonts.css';
 @import './components/alert.css';
 @import './components/yamap.css';
+@import './components/buttons.css';
+@import './components/footer.css';
 body{
     margin: 0 auto;
     max-width: 1440px;
@@ -27,9 +29,54 @@ a{
 nav{
     list-style: none;
 }
+ul{
+    list-style: none;
+}
 :root{
     --prymary: #004643;
     --white: #FFFFFF;
     --black: #171717;
 }
 
+.blocklogo_number{
+    align-items: center;
+    display: flex;
+    gap: 10vw;
+}
+
+.list_types li{
+    display: flex;
+    align-items: center;
+    gap: 11px;
+}
+.list_types{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.hero_content{
+    gap: 30px;
+    background-color: rgba(0, 0, 0, 0.669);
+    backdrop-filter: blur(4px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0vw 5vw;
+    justify-content: center;
+    width: 540px;
+    height: 100%
+}
+.left_block{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.hero_container{
+    width: 100%;
+    height: 840px;
+}
+.hero_container{
+    background-image: 
+            linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+            url(/src/assests/img/hero_img/image1.png);
+}

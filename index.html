@@ -3,21 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/svg+xml" href="./src/assests/svg/faviconico.svg">
     <link rel="stylesheet" href="./src/style/style.css">
-    <script src="https://api-maps.yandex.ru/2.1/?apikey=&lang=ru_RU" type="text/javascript"></script>
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
     <title>Большой дом</title>
 </head>
 <body>
     <header>
         <div class="main_header_positon">
             <div class="headerfix">
-                <div  class="header-container stroke_main">
+                <div  class="header-container ">
                     <div class="header-content">
-                        <a  href="index.html" class="logo"><img src="./src/assests/svg/logo_icon.svg" alt="логотип"><h4>Большой Дом</h4> </a>
+                        <div class="blocklogo_number">
+                            <a  href="index.html" class="logo"><img src="./src/assests/svg/logo_icon.svg" alt="логотип"><h4>Большой Дом</h4> </a>
+                            <a class="ewf" href="tel:+78121112233"><h6>+7 (812) 111 - 22 - 33</h6></a>
+                        </div>
                         <nav class="navigation">
                             <li><a href="index.html"><h6>Главная</h6></a></li>
-                            <li><a href="Portfolio.html"><h6>о компании</h6></a></li>
-                            <li><a href="AboutUs.html"><h6>Услуги</h6></a></li>
+                            <li><a href="#about"><h6>О компании</h6></a></li>
+                            <li><a href="#services"><h6>Услуги</h6></a></li>
                             <li><a href="#footer"><h6>Контакты</h6></a></li>
                         </nav>
                         <div class="burgerbutton">
@@ -35,9 +39,9 @@
                 <div class="header_mobile stroke_main">
                     <nav class="mobile">
                         <li><a href="index.html"><h6>Главная</h6></a></li>
-                        <li><a href="Portfolio.html"><h6>о компании</h6></a></li>
-                        <li><a href="AboutUs.html"><h6>Услуги</h6></a></li>
-                        <li><a href="#footer"><h6>Контакты</h6></a></li>
+                            <li><a href="#about"><h6>О компании</h6></a></li>
+                            <li><a href="#services"><h6>Услуги</h6></a></li>
+                            <li><a href="#footer"><h6>Контакты</h6></a></li>
                     </nav>
                 </div>
             </div>
@@ -46,11 +50,23 @@
     <main>
         <div class="hero_block">
             <div class="hero_container">
-
+                <div class="hero_content">
+                    <div class="left_block">
+                        <h1>Построим ваш идеальный дом от 4,8 млн ₽</h1>
+                        <h3 style="font-weight: 100 !important;">В ипотеку, «под ключ», со всеми коммуникациями, точно в срок</h3>
+                        <button class="main">Оставить заявку</button>
+                        <ul class="list_types">
+                            <li><img src="./src/assests/svg/chekbox.svg" alt="чекбокс"><h6>Гибкая планировка под любой участок (независимая планировка от участка)</h6></li>
+                            <li><img src="./src/assests/svg/chekbox.svg" alt="чекбокс"><h6>Трейдин вторичного жилья</h6></li>
+                            <li><img src="./src/assests/svg/chekbox.svg" alt="чекбокс"><h6>Ипотечные услуги</h6></li>
+                        </ul>
+                    </div>
+                    <div class="right_block"></div>
+                </div>
             </div>
         </div>
     </main>
-    <!-- <footer>
+    <footer>
         <div class="footer_container" id="footer">
             <div class="right_map_footer">
                 <div class="map">
@@ -58,11 +74,51 @@
                 </div>
                 <div class="container_foterinfor">
                     <div class="conternt_footer">
+                        <div class="title_footer"><h3>наши контакты</h3></div>
+                        <div class="container_footer_grid">
+                            <div class="item_grid_footer">
+                                <h5>Строительная компания ООО «Большой дом»</h5>
+                                <div class="links_footer">
+                                    <a href="vk.com"><h5>ВКонтакте</h5></a>
+                                    <a href="telegram.com"><h5>Telegram</h5></a>
+                                </div>
+                            </div>
+                            <div class="item_grid_footer">
+                                <div class="content_item_footer">
+                                    <h5>ИНН</h5>
+                                    <h6>1840120739</h6>
+                                </div>
+                                <div class="content_item_footer">
+                                    <h5>КПП</h5>
+                                    <h6>184001001</h6>
+                                </div>
+                            </div>
+                            <div class="item_grid_footer">
+                                <div class="content_item_footer">
+                                    <h5>Адрес:</h5>
+                                    <h6>Россия, 191186, Санкт-Петербург, ул. Большая Морская, 18</h6>
+                                </div>
+                                <div class="content_item_footer">
+                                    <h5>Телефон:</h5>
+                                    <a href="tel:+78121112233"></a><h6>+7 (812) 111 - 22 - 33</h6>
+                                </div>
+                                <div class="content_item_footer">
+                                    <h5>Адрес:</h5>
+                                    <h6>Россия, 191186, Санкт-Петербург, ул. Большая Морская, 18</h6>
+                                </div>
+                            </div>
+                            <div class="item_grid_footer">
+                                <div class="content_item_footer">
+                                    <h5>Email</h5>
+                                    <h6>info@bighouse@gmail.com</h6>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </footer> -->
+    </footer>
 </body>
 <script type="module" src="./src/javascript/script.js"></script>
 </html>

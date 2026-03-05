@@ -1,6 +1,6 @@
 @font-face {
-    font-family: "Avant_gardectt_bold";
-    src: url(./avantgardectt_bold.ttf);
+    font-family: "Montserrat_bold";
+    src: url(./Montserrat-Bold.ttf);
 }
 @font-face {
     font-family: "Montserrat_semi_bold";
@@ -19,7 +19,7 @@
 
 h1 {
 display: block;
-font-family: "Avant_gardectt_bold";
+font-family: "Montserrat_bold";
 font-size: 60px;
 margin-block-start: 0em;
 margin-block-end: 0em;
@@ -44,7 +44,7 @@ margin-block-start: 0em;
 margin-block-end: 0em;
 margin-inline-start: 0px;
 line-height: 120%;
-letter-spacing: 0%;
+letter-spacing: -1px;
   font-family: "Montserrat_semi_bold";
 }
 h4 {
@@ -59,12 +59,13 @@ font-family:"Montserrat_medium";
 }
 h5 {
 display: block;
-font-size: 14px;
+font-size: 16px;
 margin-block-start: 0em;
 margin-block-end: 0em;
 margin-inline-start: 0px;
 line-height: 120%;
 letter-spacing: 0%;
+font-family:"Montserrat_medium";
 }
 h6{
 display: block;
@@ -135,12 +136,12 @@ font-family: 'Montserrat_regular';
 @media screen and (max-width: 834px){
     h1 {
     display: block;
-    font-size: 35px;
+    font-size: 45px;
     margin-block-start: 0em;
     margin-block-end: 0em;
     margin-inline-start: 0px;
     font-weight: 200;
-    line-height: 77%;
+    line-height: 100%;
     letter-spacing: 2%;
     }
     h2 {
@@ -187,7 +188,7 @@ font-family: 'Montserrat_regular';
 @media screen and (max-width: 375px){
     h1 {
     display: block;
-    font-size: 35px;
+    font-size: 45px;
     margin-block-start: 0em;
     margin-block-end: 0em;
     margin-inline-start: 0px;

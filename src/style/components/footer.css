@@ -1,0 +1,36 @@
+.container_foterinfor{
+    width: 100%;
+    height: 450px;
+}
+
+.container_footer_grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5vw;
+}
+
+.title_footer h3{
+    text-transform: uppercase;
+    padding-bottom: 50px;
+}
+.conternt_footer{
+    margin-top: 50px;
+    padding: 5vw;
+}
+.links_footer a{
+    text-decoration: underline;
+}
+.links_footer{
+    display: flex;
+    gap: 20px;
+}
+.item_grid_footer{
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
+.content_item_footer{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
