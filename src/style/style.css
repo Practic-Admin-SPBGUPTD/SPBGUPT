@@ -1,0 +1,35 @@
+@import './components/header.css';
+@import './fonts/fonts.css';
+@import './components/alert.css';
+@import './components/yamap.css';
+body{
+    margin: 0 auto;
+    max-width: 1440px;
+    background-color: var(--black);
+    font-family: "coolvetregular";
+    color: var(--white);
+}
+html{
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    overflow-x:  hidden;
+    overflow-y:  auto;
+}
+html, body {
+  height: 100%;
+  overscroll-behavior-y: contain;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+nav{
+    list-style: none;
+}
+:root{
+    --prymary: #004643;
+    --white: #FFFFFF;
+    --black: #171717;
+}
+
