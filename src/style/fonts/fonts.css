@@ -213,7 +213,8 @@ font-family: 'Montserrat_regular';
     margin-block-end: 0em;
     margin-inline-start: 0px;
     font-weight: 200;
-    line-height: 77%;
+        line-height: 120%;
+
     letter-spacing: 2%;
     }
     h4 {
