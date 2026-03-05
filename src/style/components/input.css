@@ -1,0 +1,39 @@
+.form {
+ --width-of-input: 100%;
+ --border-height: 1px;
+ --border-before-color: var(--white);
+ position: relative;
+ width: var(--width-of-input);
+}
+
+.input {
+ color: #fff;
+ font-size: 0.9rem;
+ background-color: transparent;
+ width: 100%;
+ box-sizing: border-box;
+ padding-block: 0.7em;
+ border: none;
+ border-bottom: var(--border-height) solid var(--border-before-color);
+}
+::placeholder {
+ color: #fff;
+ opacity: 0.5;
+}
+.input-border {
+ position: absolute;
+ background: white;
+ width: 0%;
+ height: 2px;
+ bottom: 0;
+ left: 0;
+ transition: 0.3s;
+}
+
+input:focus {
+ outline: none;
+}
+
+input:focus ~ .input-border {
+ width: 100%;
+}

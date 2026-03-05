@@ -17,3 +17,44 @@
 .main:active{
     opacity: 0.5;
 }
+
+.mainwhite{
+    cursor: pointer;
+    background-color: var(--white);
+    padding: 18px 100px;
+    font-size: 16px;
+    font-family:"Montserrat_medium";
+    border: 2px solid transparent;
+    color:var(--prymary);
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+
+.mainwhite:hover{
+    border: 2px solid var(--prymary);
+}
+
+.mainwhite:active{
+    opacity: 0.5;
+}
+
+.counter{
+    cursor: pointer;
+    background-color: var(--prymary);
+    padding: 18px 100px;
+    font-size: 16px;
+    font-family:"Montserrat_medium";
+    border: 2px solid white;
+    color:var(--white);
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+
+.counter:hover{
+    background-color: var(--white);
+    color: var(--prymary);
+}
+
+.counter:active{
+    opacity: 0.5;
+}

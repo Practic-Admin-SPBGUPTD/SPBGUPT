@@ -4,6 +4,8 @@
 @import './components/yamap.css';
 @import './components/buttons.css';
 @import './components/footer.css';
+@import './components/input.css';
+@import './components/checkbox.css';
 body{
     margin: 0 auto;
     max-width: 1440px;
@@ -79,4 +81,145 @@ ul{
     background-image: 
             linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
             url(/src/assests/img/hero_img/image1.png);
+}
+.about_us_block{
+    width: 100%;
+    height: 100%;
+
+}
+.about_content{
+    padding: 5vw;
+}
+.about_content{
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+.text_blokc{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 40vw;
+}
+
+.about_content img{
+    width: 40vw;
+}
+
+.backform{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--prymary);
+    width: 100%;
+    height: 100%;
+    padding: 5vw;
+}
+.backforawdwm{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--prymary);
+    width: 100%;
+    height: 100%;
+    padding: 2vw;
+}
+.titleblock{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.formquoce{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.formseco{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.block_containerdownload{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    padding: 40px;
+    border: 2px solid #487A79;
+}
+
+.textblock_download{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+@media screen and (max-width: 834px){
+    .backform{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background-color: var(--prymary);
+        width: 100%;
+        height: 100%;
+        padding: 5vw;
+    }
+    .titleblock {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding-bottom: 60px;
+}
+
+.about_content{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+.about_content img{
+    width: 100%;
+    object-fit: cover;
+    height: 50vw;
+}
+.text_blokc {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+.block_containerdownload{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    padding: 6vw;
+    gap: 30px;
+    border: 2px solid #487A79;
+}
+.left_block {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 200px;
+}
+.main {
+    cursor: pointer;
+    background-color: var(--prymary);
+    padding: 5vw 10vw;
+    font-size: 16px;
+    font-family: "Montserrat_medium";
+    border: 2px solid transparent;
+    color: var(--white);
+    text-transform: uppercase;
+    transition: all 0.3s 
+ease;
+}
+
 }

@@ -34,3 +34,18 @@
     gap: 10px;
     flex-direction: column;
 }
+
+@media screen and (max-width: 834px){
+.container_footer_grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5vw;
+}
+}
+@media screen and (max-width: 375px){
+.container_footer_grid{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 5vw;
+}
+}
