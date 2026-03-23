@@ -316,21 +316,21 @@
                             <h2>Запишитесь на экскурсию  <br> в удобное время</h2>
                             <h3>По готовым домам <br> или строящимся объектам</h3>
                         </div>
-                        <form class="formseco" action="sumbit">
+                        <form class="formseco" method="POST" action="/api/lead">
                             <div class="form">
-                                <input class="input" placeholder="Имя" required="" type="text">
+                                <input class="input" name="name" placeholder="Имя" required="" type="text">
                                 <span class="input-border"></span>
                             </div>
                             <div class="form">
-                                <input class="input" placeholder="Email" required="" type="email">
+                                <input class="input" name="email" placeholder="Email" required="" type="email">
                                 <span class="input-border"></span>
                             </div>
                             <div class="form">
-                                <input class="input" placeholder="Телефон" required="" type="tel">
+                                <input class="input" name="phone" placeholder="Телефон" required="" type="tel">
                                 <span class="input-border"></span>
                             </div>
                             <div class="checkbox-wrapper">
-                                <input id="terms-checkbox-37" name="checkbox" type="checkbox">
+                                <input id="terms-checkbox-37" name="checkbox" type="checkbox" value="1" required>
                                 <label class="terms-label" for="terms-checkbox-37">
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 200 200" class="checkbox-svg">
                                     <mask fill="white" id="path-1-inside-1_476_5-37">

@@ -1,5 +1,16 @@
 .checkbox-wrapper input[type="checkbox"] {
-  display: none;
+  /* Don't use `display:none` because the browser can't focus it for `required` validation.
+     Keep it visually hidden but focusable for native form validation. */
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+  opacity: 0;
 }
 
 .checkbox-wrapper .terms-label {
